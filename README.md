@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Fivetran](#fivetran)
 2. [Astronomer](#astronomer)
-3. [Running you first DAG](#dag)
+3. [Running your first DAG](#dag)
 
 # Fivetran <a name="fivetran"></a>
 This section guides the set up of a Fivetran trial this creates a BigQuery destination to store data that is managed by Fivetran, Fivetran then automates the movement of data into this data warehouse.
@@ -61,3 +61,49 @@ Google Sheet URL
 
 Follow the guide in the link below to get started with Astronomer.
 https://www.astronomer.io/docs/cloud/stable/develop/cli-quickstart
+
+Stop before completing **Step 3: Initialize an Airflow Project** a DAG has already been initialized for you
+
+# Running your first DAG <a name="dag"></a>
+
+Clone this repository and cd into it
+
+`git clone https://github.com/PubChimps/FivetranAstronomerWorkshop/`
+`cd FivetranAstronomerWorkshop`
+
+Once in the cloned repository, Astronomer can be started 
+
+`astro dev start`
+
+| ![astro1.png](images/astro1.png) |
+|:--:|
+| Once Astronomer is up and running, access it at *localhost:8080* and log in with the **Username** *admin* and **Password** *admin* |
+
+| ![astro2.png](images/astro2.png) |
+|:--:|
+| 2 |
+
+| ![astro3.png](images/astro3.png) |
+|:--:|
+| 3 |
+
+| ![astro4.png](images/astro4.png) |
+|:--:|
+| 4 |
+
+| ![astro5.png](images/astro5.png) |
+|:--:|
+| 5 |
+
+| ![astro6.png](images/astro6.png) |
+|:--:|
+| 6 |
+
+| ![astro7.png](images/astro7.png) |
+|:--:|
+| 7 |
+
+
+
+
+
