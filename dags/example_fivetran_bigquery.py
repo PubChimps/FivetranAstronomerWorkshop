@@ -20,7 +20,7 @@ default_args = {
     'email_on_failure': False
 }
 
-with DAG('lab_dag',
+with DAG('example_fivetran_bigquery',
          default_args=default_args,
          description='',
          schedule_interval=None,
